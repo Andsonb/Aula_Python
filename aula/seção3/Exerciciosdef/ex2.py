@@ -10,6 +10,7 @@ print(somma)
 '''
 
 #avancado
+
 def soma():
     n1=input('digite um numero para somar ')
     n2=input('digite outro numero ')
