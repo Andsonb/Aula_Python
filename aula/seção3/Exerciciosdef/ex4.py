@@ -23,7 +23,7 @@ while True:
         print('')
         print(teste.soma(soma_recebe1, soma_recebe2))
 
-    if operacao == 'subtração' or operacao == '-':
+    elif operacao == 'subtração' or operacao == '-':
         print(teste.sub(soma_recebe1, soma_recebe2))
 
     if operacao == 'divisão' or operacao == '/':
