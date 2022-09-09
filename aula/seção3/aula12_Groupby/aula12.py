@@ -30,7 +30,6 @@ for agrupamento, valores_agrupados in alunos_agrupados:
   quantidade = len(valores)
   print(f'\t{quantidade} alunos tiraram nota {agrupamento}')
 '''
-
 # Com tee
 for agrupamento, valores_agrupados in alunos_agrupados:
     v1, v2 = tee(valores_agrupados)
@@ -42,3 +41,4 @@ for agrupamento, valores_agrupados in alunos_agrupados:
 
     quantidade = len(list(v2))
     print(f'\t{quantidade} alunos tiraram nota {agrupamento}')
+print()
